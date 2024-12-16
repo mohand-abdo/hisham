@@ -1,0 +1,37 @@
+	@media(max-width: 830px){
+		div.dataTables_wrapper div.dataTables_length label{
+			float: none;
+		}
+
+		div.table-responsive>div.dataTables_wrapper>div.row {
+		    flex-direction: column-reverse;
+		    justify-content: center;
+		    align-items: center;
+		}
+
+		div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+		    justify-content: center;
+		}
+	}
+
+ button:not(:disabled).disabled{
+	cursor: no-drop;
+}
+
+.require-insert{
+	font-size: 16px;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    top: 4px;
+}
+
+@media print{
+	.print{
+		display: none;
+	}
+}
+
+.dis{
+	cursor: no-drop;
+}
